@@ -22,7 +22,7 @@ After collecting the data, we have created a common dataframe variable in which 
 
 After replacing the blank values with zero in the vaccination column and removing the population rows that have zero values, we have introduced a new column that counts each country's number of deaths per 100,000 residents. This action gives us a better picture of the situation of each country during the pandemic, and we can easily proceed with the comparison between countries because comparing deaths per 100,000 citizens is always a valid comparison independent of the country's population.
 
-# [[1.png]]
+![1](https://github.com/user-attachments/assets/3f666f55-f269-4ee5-844c-53e8ea549025)
 
 ## Similarity Details
 
@@ -49,8 +49,9 @@ Moving on, we created a new dataframe called 'similarityMatrix' (with columns co
 
 Based on the similarityMatrix, Python creates a graph for each period (similarities smaller than 0.001 are considered 0 and are not included in the graph).
 
-# [[2.png]]
-# [[3.png]]
+![2](https://github.com/user-attachments/assets/57ea76d6-a5ea-471a-9391-ce224a2ffde3)
+
+![3](https://github.com/user-attachments/assets/b45627e8-6b41-4730-a897-b4d75108f894)
 
 The graphs show us not only which countries (vertex) are connected to which others but also how similar they are.
 
